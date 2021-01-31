@@ -3,9 +3,10 @@
     --mouseY: 50%;
     padding: 0;
     background-color: #191919;
+    scroll-snap-type: y mandatory;
 }
 #parallax {
-    height: 65vh;
+    height: 100vh;
     filter: blur(4px);
     -webkit-filter: blur(4px);
     background-repeat: no-repeat;
@@ -44,7 +45,10 @@
     }
 }
 
-
+.cv-item {
+    scroll-snap-align: start;
+    height: 100vh;
+}
 .appearing {
     animation: appear linear 800ms;
 }
@@ -97,7 +101,6 @@
     font-family: "Avenir", monospace;
     text-shadow: #000 60px -25px 2px;
 }
-
 
 #icon-section {
     margin: auto;
