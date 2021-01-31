@@ -4,72 +4,84 @@
     <meta charset="UTF-8">
     <title>Gino Raviola &#128187;</title>
     <link rel="stylesheet" href="main.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/af00b376e2.js" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
 </head>
 <body>
-<header>
-    <div id="parallax"></div>
-    <div class="profile-pic-wrapper">
-        <img id="profile-pic" src="profile-pic.jpg">
+<div class="flex relative inline-block m-auto">
+    <div id="parallax" class="relative w-full"></div>
+    <div class="absolute w-full h-full transform translate-y-20 lg:translate-y-10 appearing">
+        <img src="prof1.png"
+             class="sm:w-4/12 md:w-3/5 lg:w-2/12 2xl:w-2/12 rounded-full block m-auto shadow-2xl puff-in-bottom"
+        >
+        <div class="flex-grow text-white text-center md:mt-24 lg:m-2">
+            <p class="md:text-6xl lg:text-3xl p-2 tracking-wide font-mono tracking-in-expand-delay1">
+                <span class="font-bold">Gino</span>
+                <span class="font-thin">Raviola</span>
+            </p>
+            <p class="md:text-4xl lg:text-base text-white tracking-widest md:p-5 lg:p-1 md:mt-12 lg:mt-4 mb-5 tracking-in-expand-delay2">
+                <span class="font-bold font-mono">Frontend</span>
+                <span class="font-thin font-mono">DEV</span>
+            </p>
+            <p class="p-1 md:text-2xl lg:text-sm tracking-widest md:m-3 lg:m-1 tracking-in-expand-delay3">
+                <i class="fas fa-map-marker-alt pr-3"></i> Based in
+                <span class="font-bold font-mono">San Francisco</span> -
+                <span class="font-thin font-mono">CÓRDOBA, ARGENTINA</span>
+            </p>
+            <p class="p-1 md:text-2xl lg:text-sm tracking-widest font-bold md:m-3 lg:m-1 tracking-in-expand-delay3">
+                <i class="fas fa-globe-americas pr-3"></i>
+                <span class="font-bold font-mono">Work from</span>
+                <span class="font-thin font-mono">ANYWHERE</span>
+            </p>
+        </div>
     </div>
-    <div class="header-text">
-        <h2>Gino Raviola</h2>
-        <p>Frontend Developer</p>
-        <p class="subtitle">
-            <span>
-                <i class="fas fa-map-marker-alt"></i>
-                San Francisco, Cordoba - ARG
-            </span>
-            <span>
-                <i class="fas fa-globe-americas"></i>
-                Work Everywhere
-            </span>
-        </p>
-    </div>
-</header>
-<div class="section">
-    <p class="title">About me</p>
-    <p class="text">
-        <i class="fas fa-terminal"></i>
-        I was born in San Francisco, Cordoba - Argentina. Currently studying Systems Engineering and building my career
-        as a software developer. I'm 24 years old and very excited to learn as much as I can about Frontend Development.
-        My main interests are software, music and amateur photography.
+</div>
+<div class="py-3 mx-24">
+    <p class="title font-bold text-5xl inline-block mt-16 pb-5 tracking-widest text-white uppercase transition duration-500 ease-in-out transform hover:scale-110 appearingDelayed1">
+        About me
+    </p>
+    <p class="text-gray-300 text-lg text-justify tracking-widest text leading-loose font-mono appearingDelayed2">
+        24 years old. Currently finishing my studies in Systems Engineering and building my career as a software developer.<br>
+        Continuously learning new development technologies and aiming to offer the bests user experiences.
     </p>
 </div>
-<div class="section">
-    <p class="title">Experience</p>
-    <div class="exp-item text">
-        <span class="label">
+<div class="py-3 mx-24">
+    <p class="title font-bold text-5xl inline-block mt-16 pb-5 tracking-widest text-white uppercase transition duration-500 ease-in-out transform hover:scale-110 appearingDelayed1">Experience</p>
+    <div class="flex justify-start align-bottom text-lg text-justify tracking-widest text leading-loose appearingDelayed2 py-12">
+        <span class="bg-black shadow-2xl text-white text-3xl rounded-lg px-2 pt-2">
             [ 2018 - Present ]
         </span>
-        <p>
+        <p class="transition duration-500 ease-in-out transform hover:scale-105 hover:translate-x-8">
             <a target="_blank"
-               class="exp-item-title"
+               class="font-300 text-gray-200 text-2xl px-5 appearingDelayed1"
                href="http://rooftop.dev">
-                <img src="https://rooftop.dev/static/img/rooftopIsotypes/favicon.png" class="exp-item-logo">
+                <img src="https://rooftop.dev/static/img/rooftopIsotypes/favicon.png"
+                     class="w-12 mx-3 inline-block">
                 ROOFTOP
-            </a>: The most talented devs community.
+            </a>
+            <span class="px-3 text-gray-300 text-2xl tracking-widest italic">- the most talented devs community.</span>
         </p>
     </div>
     <hr>
-    <div class="exp-item text">
-        <span class="label">
+    <div class="flex justify-start align-bottom text-lg text-justify tracking-widest text leading-loose appearingDelayed2 py-12">
+        <span class="bg-black shadow-2xl text-white text-3xl rounded-lg px-2 pt-2">
             [ 2019 - Present ]
         </span>
-        <p>
+        <p class="transition duration-500 ease-in-out transform hover:scale-105 hover:translate-x-8">
             <a target="_blank"
-               class="exp-item-title"
+               class="font-300 text-gray-200 text-2xl px-5 appearingDelayed1"
                href="http://www.workana.com">
                 <img src="https://wkncdn.com/newx/assets/build/img/logos-v3/m_logo.16736117c.png"
-                     class="exp-item-logo">
+                     class="w-12 mx-3 inline-block">
                 WORKANA
-            </a>: The most important online freelance work platform in Latin America.
+            </a>
+            <span class="px-3 text-gray-300 text-2xl tracking-widest italic">- the most important online freelance work platform in Latin America.</span>
+
         </p>
     </div>
 </div>
-<div class="section">
-    <p class="title">Technologies</p>
+<div class="py-3 mx-24">
+    <p class="title font-bold text-5xl inline-block mt-16 pb-5 tracking-widest text-white uppercase transition duration-500 ease-in-out transform hover:scale-110 appearingDelayed1">Technologies</p>
     <div id="icon-section">
         <table style="width:100%">
             <tbody>
@@ -112,22 +124,24 @@
 
     </div>
 </div>
-<div class="section">
-    <p class="title">Portfolio</p>
+<div class="py-3 mx-24">
+    <p class="title font-bold text-5xl inline-block mt-16 pb-5 tracking-widest text-white uppercase transition duration-500 ease-in-out transform hover:scale-110 appearingDelayed1">Portfolio</p>
     <div>
         <a href="http://www.github.com/GinoR96" class="gh-icon" target="_blank" rel="noreferrer">
             <i class="fab fa-github"></i>
         </a>
     </div>
 </div>
-<div class="section">
-    <p class="title">Contact</p>
-    <div style="text-align: center; margin: auto; display: block">
-        <p class="text">
-            <i class="fas fa-at" style="color: white; font-size: 22px"></i>
+<div class="py-3 mx-24">
+    <p class="title font-bold text-5xl inline-block mt-16 pb-5 tracking-widest text-white uppercase transition duration-500 ease-in-out transform hover:scale-110 appearingDelayed1">Contact</p>
+    <div class="m-auto block p-10">
+        <a href="mailto:ginoraviola@gmail.com?Subject=Job%20offer"
+           target="_blank" rel="noopener noreferrer"
+           class="text-gray-300 text-xl text-left tracking-widest text leading-loose font-mono p-10">
+            <i class="fas fa-at text-white text-2xl"></i>
             ginoraviola@gmail.com
-        </p>
-        <p class="text">
+        </a>
+        <p class="text-gray-300 text-xl text-left tracking-widest text leading-loose font-mono p-10">
             <i class="fas fa-mobile-alt" style="color: white; font-size: 25px"></i>
             +543517879889
         </p>
