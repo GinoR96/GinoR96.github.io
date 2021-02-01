@@ -2,11 +2,12 @@
     --mouseX: 50%;
     --mouseY: 50%;
     padding: 0;
-    background-color: #191919;
+    background-color: #1a1a1a;
     scroll-snap-type: y mandatory;
 }
 #parallax {
     height: 100vh;
+    width: 100vw;
     filter: blur(4px);
     -webkit-filter: blur(4px);
     background-repeat: no-repeat;
@@ -99,14 +100,9 @@
 
 .title {
     font-family: "Avenir", monospace;
-    text-shadow: #000 60px -25px 2px;
+    text-shadow: #000 -10px -10px 2px;
 }
 
-#icon-section {
-    margin: auto;
-    display:  block;
-    text-align: center;
-}
 #icon-section i {
     font-size: 80px;
     color: white;

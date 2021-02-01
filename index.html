@@ -8,11 +8,11 @@
     <script src="https://kit.fontawesome.com/af00b376e2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="flex cv-item">
-    <div id="parallax" class="relative w-full"></div>
+<div class="container flex cv-item">
+    <div id="parallax" class="absolute"></div>
     <div class="absolute w-full transform translate-y-1/4 appearing">
         <img src="prof1.png"
-             class="sm:w-4/12 md:w-3/5 lg:w-2/12 2xl:w-2/12 rounded-full block m-auto shadow-2xl puff-in-bottom"
+             class="w-3/5 lg:w-2/12 rounded-full block m-auto shadow-2xl puff-in-bottom"
         >
         <div class="flex-grow text-white text-center md:mt-24 lg:m-2">
             <p class="md:text-7xl lg:text-3xl p-2 tracking-wide font-mono tracking-in-expand-delay1">
@@ -36,7 +36,7 @@
         </div>
     </div>
 </div>
-<div class="my-16 py-32 mx-24 cv-item">
+<div class="my-16 py-32 mx-24 cv-item  flex flex-col place-content-center">
     <p class="title font-bold md:text-7xl lg:text-5xl md:text-center lg:text-left mb-10 tracking-widest text-white uppercase transition duration-500 ease-in-out transform hover:scale-110 hover:translate-x-8 appearingDelayed1">
         About me
     </p>
@@ -46,14 +46,14 @@
         Continuously learning new development technologies and aiming to offer the bests user experiences.
     </p>
 </div>
-<div class="my-16 py-32 mx-24 cv-item">
-    <p class="title font-bold md:text-7xl lg:text-5xl md:text-center lg:text-left mb-10 tracking-widest text-white uppercase transition duration-500 ease-in-out transform hover:scale-110 hover:translate-x-8 appearingDelayed1">
+<div class="my-16 py-32 mx-24 cv-item flex flex-col place-content-center appearingDelayed1">
+    <p class="title font-bold md:text-7xl lg:text-5xl md:text-center lg:text-left mb-10 tracking-widest text-white uppercase transition duration-500 ease-in-out transform hover:scale-110 hover:translate-x-8">
         Experience</p>
     <div class="my-6">
         <span class="bg-black shadow-2xl font-medium text-gray-300 md:text-4xl lg:text-3xl md:mx-32 lg:mx-10 rounded-lg px-2 py-4 my-12 md:block lg:inline md:text-center align-middle">
             [ 2018 - Present ]
         </span>
-        <div class="text-gray-100 lg:inline-flex md:text-center appearingDelayed1 transition duration-500 ease-in-out transform hover:scale-105 hover:translate-x-8">
+        <div class="text-gray-100 lg:inline-flex md:text-center transition duration-500 ease-in-out transform hover:scale-105 hover:translate-x-8">
             <a href="http://rooftop.dev"
                target="_blank"
                rel="noopener noreferrer">
@@ -75,7 +75,7 @@
 <span class="bg-black shadow-2xl font-medium text-gray-300 md:text-4xl lg:text-3xl md:mx-32 lg:mx-10 rounded-lg px-2 py-4 my-12 md:block lg:inline md:text-center align-middle">
             [ 2019 - Present ]
         </span>
-        <div class="text-gray-100 lg:inline-flex md:text-center appearingDelayed1 transition duration-500 ease-in-out transform hover:scale-105 hover:translate-x-8">
+        <div class="text-gray-100 lg:inline-flex md:text-center transition duration-500 ease-in-out transform hover:scale-105 hover:translate-x-8">
             <a target="_blank"
                rel="noopener noreferrer"
                href="http://www.workana.com">
@@ -93,13 +93,13 @@
         </div>
     </div>
 </div>
-<div class="my-16 py-32 mx-24 cv-item">
-    <p class="title font-bold md:text-7xl lg:text-5xl md:text-center lg:text-left mb-10 tracking-widest text-white uppercase transition duration-500 ease-in-out transform hover:scale-110 hover:translate-x-8 appearingDelayed1">
+<div class="my-16 py-32 mx-24 cv-item flex flex-col place-content-center appearingDelayed1">
+    <p class="title font-bold md:text-7xl lg:text-5xl md:text-center lg:text-left mb-10 tracking-widest text-white uppercase transition duration-500 ease-in-out transform hover:scale-110 hover:translate-x-8">
         Technologies</p>
-    <div id="icon-section">
-        <table style="width:100%">
+    <div id="icon-section" class="my-6 flex m-auto text-center content-around">
+        <table class="w-full">
             <tbody>
-            <tr>
+            <tr class="content-around">
                 <td>
                     <i class="fab fa-html5" style="color: orange"></i>
                 </td>
@@ -138,28 +138,56 @@
 
     </div>
 </div>
-<div class="my-16 py-32 mx-24 cv-item">
-    <p class="title font-bold md:text-7xl lg:text-5xl md:text-center lg:text-left mb-10 tracking-widest text-white uppercase transition duration-500 ease-in-out transform hover:scale-110 hover:translate-x-8 appearingDelayed1">
+<div class="my-16 py-32 mx-24 cv-item flex flex-col place-content-center appearingDelayed1">
+    <p class="title font-bold md:text-7xl lg:text-5xl md:text-center lg:text-left mb-10 tracking-widest text-white uppercase transition duration-500 ease-in-out transform hover:scale-110 hover:translate-x-8">
         Portfolio</p>
-    <div>
-        <a href="http://www.github.com/GinoR96" class="gh-icon" target="_blank" rel="noreferrer">
+    <div class="my-6">
+        <a href="https://play.google.com/store/apps/details?id=sanfrancisco.utn.sysacadalumnos" target="_blank"
+           rel="noopener noreferrer">
+            <div class="box-content flex-col p-4 m-6 my-12 lg:my-4 bg-gray-700 text-center rounded-lg shadow-2xl content-center transition duration-500 ease-in-out hover:bg-gray-800 transform hover:-translate-y-1 hover:scale-105">
+                <p class="font-medium tracking-widest text mb-8 lg:mb-3">
+                    <span class="text-7xl lg:text-3xl text-white">SYSACAD</span><br>
+                    <span class="text-5xl lg:text-2xl text-gray-300">Student Academic App</span>
+                </p>
+                <p class="text-gray-400 text text-4xl lg:text-xl p-2">
+                    Back in 2017, on a need to know the exam grades, I developed an android app to help students
+                    (and myself) to track their academic progress
+                </p>
+                <p class="text mt-5 text-black text-2xl lg:text-base">Stack: Android native - JAVA</p>
+            </div>
+        </a>
+        <a href="https://cepar.ar/" target="_blank" rel="noopener noreferrer">
+            <div class="box-content flex-col p-4 m-6 my-12 lg:my-4 bg-gray-700 text-center rounded-lg shadow-2xl content-center transition duration-500 ease-in-out hover:bg-gray-800 transform hover:-translate-y-1 hover:scale-105">
+                <p class="text-3xl text-white font-medium tracking-widest text mb-8 lg:mb-3">
+                    <span class="text-7xl lg:text-3xl text-white">Cepar</span><br>
+                    <span class="text-5xl lg:text-2xl text-gray-300">Medical care management web system</span>
+                </p>
+                <p class="text-gray-400 text text-4xl lg:text-xl p-2">
+                    [ August 2020 ] - Implementation of template and launching of administrative system for medical
+                    personnel
+                </p>
+                <p class="text mt-5 text-black text-2xl lg:text-base">Stack: VueJS</p>
+            </div>
+        </a>
+        <a href="http://www.github.com/GinoR96"
+           class="gh-icon " target="_blank" rel="noreferrer">
             <i class="fab fa-github"></i>
         </a>
     </div>
 </div>
-<div class="my-16 py-32 mx-24 cv-item">
-    <p class="title font-bold md:text-7xl lg:text-5xl md:text-center lg:text-left mb-10 tracking-widest text-white uppercase transition duration-500 ease-in-out transform hover:scale-110 hover:translate-x-8 appearingDelayed1">
+<div class="my-16 py-32 mx-24 cv-item  flex flex-col place-content-center appearingDelayed1">
+    <p class="title font-bold md:text-7xl lg:text-5xl md:text-center lg:text-left mb-10 tracking-widest text-white uppercase transition duration-500 ease-in-out transform hover:scale-110 hover:translate-x-8">
         Contact</p>
-    <div class="m-auto block p-10">
+    <div class="my-6 block p-10">
         <a href="mailto:ginoraviola@gmail.com?Subject=Job%20offer"
            target="_blank" rel="noopener noreferrer"
-           class="text-gray-300 text-xl text-left tracking-widest text leading-loose font-mono p-10">
+           class="text-gray-300 text-4xl lg:text-xl text-left tracking-widest text leading-loose font-mono p-10">
             <i class="fas fa-at text-white text-2xl"></i>
             ginoraviola@gmail.com
         </a>
-        <p class="text-gray-300 text-xl text-left tracking-widest text leading-loose font-mono p-10">
+        <p class="text-gray-300 text-4xl lg:text-xl text-left tracking-widest text leading-loose font-mono p-10">
             <i class="fas fa-mobile-alt" style="color: white; font-size: 25px"></i>
-            +543517879889
+            +54 0351 - 157879889
         </p>
     </div>
 </div>
