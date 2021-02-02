@@ -4,6 +4,7 @@
     padding: 0;
     background-color: #1a1a1a;
     scroll-snap-type: y mandatory;
+    overflow-x: hidden;
 }
 #parallax {
     height: 100vh;
