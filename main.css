@@ -3,7 +3,7 @@
     --mouseY: 50%;
     padding: 0;
     background-color: #1a1a1a;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
     overflow-x: hidden;
 }
 #parallax {
@@ -110,10 +110,20 @@
     padding: 25px;
     transition: transform .5s;
 }
+#icon-section img {
+    width: 110px;
+    color: white;
+    padding: 25px;
+    transition: transform .5s;
+}
 
 #icon-section i:hover {
     transform: scale(1.3) rotateZ(360deg);
 }
+#icon-section img:hover {
+    transform: scale(1.3) rotateZ(360deg);
+}
+
 .gh-icon {
     font-size: 55px;
     display: block;
