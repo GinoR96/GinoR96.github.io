@@ -2,6 +2,8 @@
     --mouseX: 50%;
     --mouseY: 50%;
     padding: 0;
+    margin: 0;
+    width: 100vw;
     background-color: #1a1a1a;
     scroll-snap-type: y proximity;
     overflow-x: hidden;
@@ -105,15 +107,9 @@
 }
 
 #icon-section i {
-    font-size: 80px;
-    color: white;
-    padding: 25px;
     transition: transform .5s;
 }
 #icon-section img {
-    width: 110px;
-    color: white;
-    padding: 25px;
     transition: transform .5s;
 }
 
