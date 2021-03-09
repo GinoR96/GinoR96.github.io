@@ -121,18 +121,9 @@
 }
 
 .gh-icon {
-    font-size: 55px;
-    display: block;
-    margin: auto;
-    text-align: center;
     color: #fff;
 }
-.gh-icon i {
-    transition: transform .5s;
-}
-.gh-icon i:hover {
-    transform: scale(1.3);
-}
+
 @keyframes appear {
     0% { opacity:0; }
     66% { opacity:0; }
