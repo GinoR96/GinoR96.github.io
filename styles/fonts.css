@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500&display=swap');
+
+.text-roboto {
+    font-family: "Roboto", sans-serif;
+}
+.text-recursive {
+    font-family: "Recursive", sans-serif;
+}
+
+.r-text-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+.r-text-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+.r-text-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.r-text-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.c-text-light {
+    font-family: "Recursive", sans-serif;
+    font-weight: 300;
+}
+.c-text-regular {
+    font-family: "Recursive", sans-serif;
+    font-weight: 400;
+}
+.c-text-medium{
+    font-family: "Recursive", sans-serif;
+    font-weight: 500;
+}
+.c-text-semibold {
+    font-family: "Recursive", sans-serif;
+    font-weight: 600;
+}
