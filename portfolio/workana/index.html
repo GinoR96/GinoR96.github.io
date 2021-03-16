@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"
+      id="top"
+>
 <head>
 
     <meta charset="UTF-8">
@@ -24,7 +26,7 @@
     ></script>
 </head>
 <body class="bg-blue-500">
-<nav class="p-6 lg:p-3 bg-blue-700 w-full z-10 top-0 text-gray-100 fixed">
+<nav class="p-6 lg:p-3 bg-blue-600 w-full z-10 top-0 text-gray-100 fixed">
     <p class="inline text-recursive">
         <a href="../../index.html#portfolio">
             <span class="text-5xl lg:text-xl mr-2">Home</span>
@@ -66,7 +68,8 @@
         <div class="fade-in-bottom mt-10 flex justify-center lg:mt-0">
             <object type="image/svg+xml"
                     class="w-full lg:w-96 lg:-mt-10"
-                    data="./assets/main.svg">
+                    data="assets/coding-isometric.svg"
+            >
                 fallback
             </object>
 
@@ -86,32 +89,37 @@
      id="experience"
 >
     <div class="m-10 p-10">
-        <h1 class="text-roboto text-white text-7xl lg:text-5xl pt-12 lg:pt-5 mb-16 text-center lg:text-left">Some cool stuff I got the chance to work on</h1>
+        <h1 class="text-roboto text-white text-7xl lg:text-5xl pt-12 lg:pt-5 mb-16 text-center lg:text-left">Some cool
+            stuff I got the chance to work on</h1>
 
-        <p class="text-5xl lg:text-3xl text-white text-roboto mb-5 tracking-wide font-medium">
+        <p class="text-5xl lg:text-4xl text-white text-roboto mb-5 tracking-wide font-medium">
             1. Re-building the platform onboarding process
         </p>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
             <div class="flex flex-col">
-                <p class="text-justify text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-5 font-light">
+                <p class="text-justify text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-5 font-normal">
                     Multi-step form to improve the experience of freelancers joining the platform.
                 </p>
-                <p class="text-justify text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-5 font-light"> This process required constant communication with the backend team in order for them to provide the curated data in a way that makes sense and then wire the views and components with it.
+                <p class="text-justify text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-5 font-normal">
+                    This process required constant communication with the backend team in order for them to provide the
+                    curated data in a way that makes sense and then wire the views and components with it.
 
                 </p>
                 <div class="flex flex-col text-center py-4">
                     <img src="assets/wkn-onboarding-1.png"
-                         class="w-full lg:w-5/6 rounded place-self-center py-2"
+                         class="w-full lg:w-5/6 rounded-3xl place-self-center py-2"
                     >
                     <p class="italic text-md text-white p-2 text-recursive">Welcome page</p>
                 </div>
-                <p class="text-justify text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-5 font-light"> Regarding the front-end, we've used a library called Vee-validate for field validations.
+                <p class="text-justify text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-5 font-normal">
+                    Regarding the front-end, we've used a library called Vee-validate for field validations.
                 </p>
-                <p class="text-justify text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-5 font-light"> The steps submit the partial data in order not to miss any information the user has filled in.
+                <p class="text-justify text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-5 font-normal">
+                    The steps submit the partial data in order not to miss any information the user has filled in.
                 </p>
                 <div class="flex flex-col text-center py-4">
                     <img src="assets/wkn-onboarding-2.png"
-                         class="w-full lg:w-5/6 rounded place-self-center py-2"
+                         class="w-full lg:w-5/6 rounded-3xl place-self-center py-2"
                     >
                     <p class="italic text-md text-white p-2 text-recursive">Personal information step</p>
                 </div>
@@ -119,26 +127,197 @@
             <div class="flex flex-col">
                 <div class="flex flex-col text-center py-4">
                     <img src="assets/wkn-onboarding-3.png"
-                         class="w-full lg:w-5/6 rounded place-self-center py-2"
+                         class="w-full lg:w-5/6 rounded-3xl place-self-center py-2"
                     >
                     <p class="italic text-md text-white p-2 text-recursive">Skills selection step</p>
                 </div>
 
-                <p class="text-justify text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-5 font-light">
-                    Asking the users to complete as much info as they could about themselves would not only improve their chances to get hired, but also end up with a much more reliable and professional profile.
+                <p class="text-justify text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-5 font-normal">
+                    Asking the users to complete as much info as they could about themselves would not only improve
+                    their chances to get hired, but also end up with a much more reliable and professional profile.
 
                 </p>
                 <div class="flex flex-col text-center py-4">
                     <img src="assets/wkn-onboarding-4.png"
-                         class="w-full lg:w-5/6 rounded place-self-center py-2"
+                         class="w-full lg:w-5/6 rounded-3xl place-self-center py-2"
                     >
                     <p class="italic text-md text-white p-2 text-recursive">Personal details step</p>
                 </div>
             </div>
         </div>
 
+        <div class="flex justify-center invisible lg:visible">
+            <a href="#posting-flow"
+               class="text-center flex flex-col animate-pulse"
+            >
+                <i class="fas fa-caret-down text-gray-300 text-xl"></i>
+                <i class="fas fa-chevron-down text-white text-5xl -mt-4"></i>
+            </a>
+        </div>
+
+
     </div>
+    <div class="h-screen p-3"
+         id="posting-flow"
+    >
+        <div class="m-10 p-10">
+            <p class="text-5xl lg:text-4xl text-white lg:text-right text-roboto mb-5 tracking-wide font-medium">
+                2. Migrate and improve the job posting flux
+            </p>
+            <p class="text-justify text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-5 font-normal">
+                Similarly, we needed to revamp the whole job posting experience.
+            </p>
+
+            <div class="flex flex-col text-center py-4 ">
+                <img src="assets/wkn-pf-1.png"
+                     class="w-full lg:w-5/6 rounded-3xl place-self-center py-2"
+                >
+                <p class="italic text-md text-white p-2 text-recursive">Project definition</p>
+            </div>
+
+            <p class="text-justify text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-5 font-normal">
+                We complemented with a fellow frontend developer and after daily meetings of discussing the analysis,
+                design, migration and implementation of the new flow, we ended up with a fully functional and friendly
+                experience to post a project in the platform.
+            </p>
+            <p class="text-justify text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-5 font-normal">
+                The task included definition of alternative flows, data synchronization and error handling.
+            </p>
+            <div class="flex flex-col lg:flex-row">
+                <div class="flex flex-col text-center py-4">
+                    <img src="assets/wkn-pf-2.png"
+                         class="w-full lg:w-5/6 rounded-3xl place-self-center py-2"
+                    >
+                    <p class="italic text-md text-white p-2 text-recursive">Project details</p>
+                </div>
+                <div class="flex flex-col text-center py-4">
+                    <img src="assets/wkn-pf-3.png"
+                         class="w-full lg:w-5/6 rounded-3xl place-self-center py-2"
+                    >
+                    <p class="italic text-md text-white p-2 text-recursive">Further info about the project</p>
+                </div>
+            </div>
+
+            <div class="flex justify-center invisible lg:visible">
+                <a href="#voice-messages"
+                   class="text-center flex flex-col animate-pulse"
+                >
+                    <i class="fas fa-caret-down text-gray-300 text-xl"></i>
+                    <i class="fas fa-chevron-down text-white text-5xl -mt-4"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="h-screen p-3"
+             id="voice-messages"
+        >
+            <div class="m-10 p-10">
+                <p class="text-5xl lg:text-4xl text-white text-roboto mb-5 tracking-wide font-medium">
+                    3. Voice messages <i class="fas fa-microphone-alt"></i>
+                </p>
+                <p class="text-justify text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-5 font-normal">
+                    Before diving into this task, I had to research and learn about the dynamics of audio on the web and
+                    the logic to be able to use the API that is being supported today.
+                </p>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-20">
+                    <div class="col-span-2">
+                        <p class="text-justify text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-5 font-normal">
+                            I implemented a voice service, declaring all the supported formats and codecs, along with
+                            all the helper methods to proper handle the audios sent through the chat.
+                        </p>
+                        <div class="flex flex-col text-center py-4">
+                            <img src="assets/wkn-voicemessages-1.png"
+                                 class="w-full lg:w-5/6 rounded-3xl place-self-center py-2"
+                            >
+                            <p class="italic text-md text-white p-2 text-recursive">Button to start recording</p>
+                        </div>
+                        <div class="flex flex-col text-center py-4">
+                            <img src="assets/wkn-voicemessages-2.png"
+                                 class="w-full lg:w-5/6 rounded-3xl place-self-center py-2"
+                            >
+                            <p class="italic text-md text-white p-2 text-recursive">Recording</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col text-center py-4">
+                        <img src="assets/wkn-voicemessages-3.png"
+                             class="w-full lg:w-5/6 rounded-3xl place-self-center py-2"
+                        >
+                        <p class="italic text-md text-white p-2 text-recursive">Different voice message states</p>
+                    </div>
+                </div>
+                <div class="flex justify-center invisible lg:visible">
+                    <a href="#further"
+                       class="text-center flex flex-col animate-pulse"
+                    >
+                        <i class="fas fa-caret-down text-gray-300 text-xl"></i>
+                        <i class="fas fa-chevron-down text-white text-5xl -mt-4"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="h-screen p-3"
+             id="further"
+        >
+            <div class="m-10 p-10">
+                <p class="text-5xl lg:text-4xl text-white text-roboto mb-5 tracking-wide font-medium">
+                    4. Many, many more...
+                </p>
+                <p class="text-justify text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-5 font-normal">
+                    Workana has an incredible team of hardworking people who are always searching new ways to improve
+                    the platform and at the same time willing to help you at any time.
+                </p>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+                    <div>
+                        <div class="fade-in-bottom mt-10 flex justify-center lg:mt-0">
+                            <object type="image/svg+xml"
+                                    class="w-full"
+                                    data="assets/code-typing.svg"
+                            >
+                                fallback
+                            </object>
+
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-white text-center lg:text-left text-roboto font-semibold text-4xl lg:text-xl tracking-wider">Among other tasks:</p>
+                        <p class="text-center text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-8 font-normal">
+                            Unit & integration testing
+                        </p>
+                        <p class="text-center text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-8 font-normal">
+                            .vue extension files (previously, we used .js)
+                        </p>
+                        <p class="text-center text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-8 font-normal">
+                            Axios (previously, we used vue resource)
+                        </p>
+                        <p class="text-center text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-8 font-normal">
+                            Bug reports ( & fixes )
+                        </p>
+                        <p class="text-center text-gray-100 text-recursive text-3xl lg:text-xl leading-loose tracking-wide my-8 font-normal">
+                            etc.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex justify-center invisible lg:visible">
+                    <a href="#top"
+                       class="text-center flex flex-col animate-pulse"
+                    >
+                        <i class="fas fa-chevron-up text-white text-5xl"></i>
+                        <i class="fas fa-caret-up text-gray-300 text-xl -mt-4"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 </div>
 </body>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>
 
