@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+          href="../../styles/fonts.css"
+    >
+    <link rel="stylesheet"
+          href="../../styles/animations.css"
+    >
+    <link rel="stylesheet"
+          href="../../styles/bg.css"
+    >
+    <title>Gino Raviola &#128187;</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+          rel="stylesheet"
+    >
+    <link rel="stylesheet"
+          href="https://unpkg.com/aos@next/dist/aos.css"
+    />
+    <script src="https://kit.fontawesome.com/af00b376e2.js"
+            crossorigin="anonymous"
+    ></script>
+</head>
+<body class="bg-yellow-300">
+<nav class="p-6 lg:p-3 bg-gray-800 w-full z-10 top-0 text-gray-100 fixed">
+    <p class="inline text-recursive">
+        <a href="../../index.html#portfolio">
+            <span class="text-5xl lg:text-xl mr-2">Home</span>
+        </a>
+        <i class="fas fa-chevron-right invisible lg:visible text-7xl lg:text-xl px-2"></i>
+    </p>
+    <span class="invisible lg:visible text-xl font-thin text-recursive">Personal Experience: Cinephile</span>
+</nav>
+<div class="h-screen py-36 lg:py-0">
+
+    <div class="my-10 lg:my-20 flex flex-col text-center">
+        <span class="text-recursive text-3xl lg:text-xl text-gray-600 ">[March ~ July - 2020]</span>
+        <p class="text-gray-800 text-9xl lg:text-8xl font-medium text-roboto p-2 tracking-wider">Cinephile:</p>
+        <span class="text-recursive text-5xl mt-4 lg:text-3xl ml-40 text-gray-600">movies app concept</span>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 p-20 lg:px-40">
+        <div class="fade-in-bottom mt-2 flex justify-center lg:mt-0">
+            <object type="image/svg+xml"
+                    class="w-full lg:w-8/12 lg:-mt-10"
+                    data="assets/cinephile-animation.svg"
+            >
+            </object>
+
+        </div>
+        <div class="flex flex-col items-center text-gray-800">
+            <p class="font-normal py-6 text-4xl lg:text-3xl tracking-wider text-center text-roboto leading-loose">
+                Coming from a JavaScript related background, and willing to build a mobile app, it kinda made sense to me to dive into mobile development using react-native.
+            </p>
+            <p class="font-normal py-6 text-4xl lg:text-3xl tracking-wider text-center text-roboto leading-loose">
+                Bootstrapped with react native CLI, using TypeScript and Axios for the http client.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="absolute inset-x-0 bottom-10 invisible lg:visible">
+        <a href="#description"
+           class="text-center flex flex-col animate-pulse"
+        >
+            <i class="fas fa-caret-down text-gray-600 text-xl"></i>
+            <i class="fas fa-chevron-down text-black text-5xl -mt-4"></i>
+        </a>
+    </div>
+</div>
+<div class="h-screen py-36 lg:py-0">
+    <div class="m-10 p-16" id="description">
+        <p class="font-normal lg:py-6 text-4xl lg:text-4xl text-gray-800 tracking-wider text-center text-roboto leading-loose">
+            The movies information was provided by consuming
+            <a href="https://www.themoviedb.org/documentation/api"
+               target="_blank"
+               class="text-blue-800 font-medium"
+               rel="noopener noreferrer"
+            >
+                the TMDB (The Movie DataBase) API
+                <i class="fas fa-external-link-alt text-xl"></i>
+            </a>
+        </p>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-20 lg:px-40 py-20">
+            <div class="lg:col-span-2 flex flex-col justify-evenly">
+                <p class="font-normal py-2 lg:py-6 text-4xl lg:text-3xl text-gray-800 text-center lg:text-left tracking-wider text-roboto leading-loose">
+                    The animations were thought and designed as I was learning a lot from the libraries
+                    <a href="https://github.com/software-mansion/react-native-reanimated"
+                       target="_blank"
+                       class="text-blue-800 font-medium"
+                       rel="noopener noreferrer"
+                    >
+                        react-native reanimated
+                        <i class="fas fa-external-link-alt text-xl"></i>
+                    </a>
+                    and
+                    <a href="https://github.com/wcandillon/react-native-redash"
+                       target="_blank"
+                       class="text-blue-800 font-medium"
+                       rel="noopener noreferrer"
+                    >
+                        react-native redash
+                        <i class="fas fa-external-link-alt text-xl"></i>
+                    </a>
+                </p>
+                <p class="font-normal py-6 text-4xl lg:text-3xl text-gray-800 tracking-wider text-center lg:text-left text-roboto leading-loose">
+                    After many re-builds and iterations, I ended up with, to my consideration, a nice looking UI and  smooth animations.
+                </p>
+            </div>
+            <div>
+                <video muted autoplay loop class="w-full lg:w-10/12">
+                    <source src="assets/cinephile1.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="m-10 p-16">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-20 lg:px-40 py-20">
+            <div>
+                <video muted autoplay loop class="w-full lg:w-10/12">
+                    <source src="assets/cinephile2.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="lg:col-span-2 flex flex-col justify-evenly">
+                <p class="font-normal py-2 lg:py-6 text-4xl lg:text-3xl text-gray-800 text-center lg:text-left tracking-wider text-roboto leading-loose">
+                    The libraries mentioned above allows you to write animations in JS but they run in the UI thread, which translates to better performance. I also used "LottieFiles" for some pre-made animations.
+                </p>
+            </div>
+
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-20 lg:px-40 py-20">
+            <div class="lg:col-span-2 flex flex-col justify-evenly">
+                <p class="font-normal py-2 lg:py-6 text-4xl lg:text-3xl text-gray-800 text-center lg:text-left tracking-wider text-roboto leading-loose">
+                    The app idea consisted in providing a nice looking movies browser, where you could search for specific titles or just see what's trending and mark as favorite the films you liked.
+                </p>
+            </div>
+            <div>
+                <video muted autoplay loop class="w-full lg:w-10/12">
+                    <source src="assets/cinephile3.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-20 lg:px-40 py-20">
+            <div>
+                <video muted autoplay loop class="w-full lg:w-10/12">
+                    <source src="assets/cinephile4.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="lg:col-span-2 flex flex-col justify-evenly">
+                <p class="font-normal py-2 lg:py-6 text-4xl lg:text-3xl text-gray-800 text-center lg:text-left tracking-wider text-roboto leading-loose">
+
+                    Although the application was not finished or published (yet) due to lack of time, I had fun and learned a lot about all the magic that goes on behind the scenes in making the animations.
+                </p>
+            </div>
+
+        </div>
+        <div class="flex justify-center invisible lg:visible">
+            <a href="#top"
+               class="text-center flex flex-col animate-pulse"
+            >
+                <i class="fas fa-chevron-up text-black text-5xl"></i>
+                <i class="fas fa-caret-up text-gray-600 text-xl -mt-4"></i>
+
+            </a>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>
