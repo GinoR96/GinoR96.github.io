@@ -71,7 +71,10 @@
     </div>
 </div>
 <div class="h-screen py-36 lg:py-0">
-    <div class="m-10 p-16 py-28" id="description">
+    <div class="m-10 p-16 py-28"
+         id="description"
+         data-aos="zoom-out"
+    >
         <p class="font-normal lg:py-6 text-4xl lg:text-4xl text-gray-800 tracking-wider text-center text-roboto leading-loose">
             The movies information was provided by consuming
             <a href="https://www.themoviedb.org/documentation/api"
@@ -118,7 +121,7 @@
 
     </div>
 
-    <div class="m-10 p-16">
+    <div class="m-10 p-16" data-aos="zoom-out">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-20 lg:px-40 py-20">
             <div>
                 <video muted autoplay loop class="w-full lg:w-10/12">
@@ -133,7 +136,7 @@
 
         </div>
     </div>
-    <div class="m-10 p-16">
+    <div class="m-10 p-16" data-aos="zoom-out">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-20 lg:px-40 py-20">
             <div class="lg:col-span-2 flex flex-col justify-evenly">
                 <p class="font-normal py-2 lg:py-6 text-4xl lg:text-3xl text-gray-800 text-center lg:text-left tracking-wider text-roboto leading-loose">
@@ -147,7 +150,7 @@
             </div>
         </div>
     </div>
-    <div class="m-10 p-16">
+    <div class="m-10 p-16" data-aos="zoom-out">
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-20 lg:px-40 py-20">
             <div>
@@ -177,4 +180,8 @@
 
 </div>
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>
